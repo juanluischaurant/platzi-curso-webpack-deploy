@@ -4,4 +4,3 @@ const fs = require('fs')
 // estas variables se pueden definir en el servidor
 // y Nodejs las accesa.
 fs.writeFileSync('./.env', `API=%${process.env.API}\n`)
-fs.writeFileSync('./dist/.env', `API=%${process.env.API}\n`)
